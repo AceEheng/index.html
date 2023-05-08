@@ -1,0 +1,188 @@
+/* universal*/ 
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/**/
+body{
+	color: White;
+	background-color: #6af2d4;
+	background-image: url("../src/pixl.gif");
+	background-size: cover;
+	width:100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/**/
+h2, h3{
+	color: gray;
+}
+/**/
+
+/**/
+/**/
+.input_style{
+	font-size:30px;
+	color: violet;
+}
+header h2{
+	color:red;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #c9fdff;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #03c2fc;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  background-image: url("../src/1216.jpg");
+  background-size: cover;
+  color: #135194;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #daf6f7;
+  color: #03c2fc;
+  border-radius:12px;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+  border-radius:12px;
+  border: 2px solid #0067cf;
+}
+.header a.active2 {
+  font-size: 25px;
+  font-weight: bold;
+	background-color: dodgerblue;
+  color: white;
+  border-radius:12px;
+  border: 2px solid #0067cf;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #03c2fc;
+  color: #daf6f7;
+  text-align: center;
+}
+.p{
+	margin-left:50px;
+	margin-top:100%;
+	margin-bottom:100%;
+}
+section{
+	border: 2px solid blue;
+	font-size: 20px;
+	padding: 20px;
+	/*margin: 100px 50px;*/
+	margin: auto;
+	margin-left:30%;
+	margin-right:30%;
+	background-color: #03c2fc;
+	color:grey;
+	text-align:center;
+
+}
+.hed1{
+	width:100%;
+	background-color: dodgerblue;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-size:20px ;
+}
+section form {
+	background-color: #daf6f7;
+}
+section #Save,#Cancel, #Save:hover, #Cancel:hover{
+	background-color: dodgerblue;
+	color: white;
+	border-radius:12px;
+	border: 2px solid #0067cf;
+	width:100px;
+	height:30px;
+}
+section #Save:hover{
+	background-color: #daf6f7;
+  color: #03c2fc;
+  border-radius:12px;
+}
+section #Cancel:hover{
+	background-color: #daf6f7;
+  color: #03c2fc;
+  border-radius:12px;
+}
+#Name, #Password,#Email{
+	width:50%;
+	height:28px;
+}
+.cinput{
+	height:20px;
+	text-align:left;
+	margin:auto;
+	color: white
+}
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      
+      /* Style the images */
+      .image {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      /* Expand the images on hover */
+      .image:hover {
+        transform: scale(1.1);
+      }
+      
+      /* Keep the images expanded on click */
+      .image:active {
+        transform: scale(1.2);
+      }
+.
+
